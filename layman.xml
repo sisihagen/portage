@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layman>
+  <overlay
+    name = "sisi"
+    status="unofficial"
+    type = "git"
+    src = "https://gitlab.com/sisihagen/portage.git"
+    contact = "siefke@mail.ru">
+	<link>https://gitlab.com/sisihagen/portage.git</link>
+    <description>SiSi Portage Overlay</description>
+    <feed></feed>
+  </overlay>
+</layman>
