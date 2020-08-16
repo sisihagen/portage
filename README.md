@@ -14,4 +14,12 @@ echo "[sisi]" > /etc/portage/repos.conf/sisi.conf
 echo "location = /var/db/repos/sisi" >> /etc/portage/repos.conf/sisi.conf
 ```
 
+If you like to use layman to automate it:
+
+```bash
+layman -f -o https://raw.githubusercontent.com/sisihagen/portage/master/repositories.xml -a sisi
+```
+
+
 Now it's ready to use. Have fun with Gentoo Linux!
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>SiSi</name>
+    <description>sisi personal gentoo overlay</description>
+    <homepage>https://github.com/sisihagen/portage</homepage>
+    <owner>
+      <email>siefke@mail.ru</email>
+      <name>Silvio Siefke</name>
+    </owner>
+    <source type="git">https://github.com/sisihagen/portage.git</source>
+  </repo>
+</repositories>
