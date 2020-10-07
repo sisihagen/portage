@@ -7,7 +7,7 @@ inherit rpm
 
 DESCRIPTION="Epson Inkjet Printer Driver (ESC/P-R) 2"
 HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
-SRC_URI="https://download3.ebz.epson.net/dsc/f/03/00/11/33/72/48e6a853e518a1bedaee575113e087c0bd5d6e2e/${P}-1lsb3.2.src.rpm"
+SRC_URI="https://download3.ebz.epson.net/dsc/f/03/00/11/84/25/6660e76bc4530c26293c1a1f1c5d6f8379dfb35b/epson-inkjet-printer-escpr2-1.1.18-1lsb3.2.src.rpm"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -16,10 +16,6 @@ IUSE=""
 
 RDEPEND="net-print/cups"
 DEPEND="${RDEPEND}"
-
-PATCHES=(
-	"${FILESDIR}/bug_x86_64.patch"
-)
 
 src_configure() {
 	econf --disable-shared

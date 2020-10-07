@@ -115,4 +115,3 @@ src_install() {
 	# Required in order to use plugins and even run palemoon on hardened:
 	pax-mark mr "${ED}"${PALEMOON_INSTDIR}/{palemoon,palemoon-bin,plugin-container}
 }
-
